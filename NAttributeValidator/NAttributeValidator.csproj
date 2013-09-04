@@ -39,8 +39,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Helpers\IStringToMatrixParser.cs" />
+    <Compile Include="Helpers\StringToMatrixParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Validation\Base\MatrixValidationMessage.cs" />
+    <Compile Include="Validation\Base\MatrixValidationResult.cs" />
+    <Compile Include="Validation\Base\ValidationMessage.cs" />
+    <Compile Include="Validation\Base\ValidationMessageType.cs" />
+    <Compile Include="Validation\Base\ValidationResult.cs" />
+    <Compile Include="Validation\Base\ValidationResultBase.cs" />
+    <Compile Include="Validation\ExcelPasteOutputValidator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
