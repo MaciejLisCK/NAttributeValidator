@@ -50,8 +50,14 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ExcelPasteOutputValidatorShould.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NAttributeValidator\NAttributeValidator.csproj">
+      <Project>{686c4cbb-a912-46a4-9df1-08e5289b922e}</Project>
+      <Name>NAttributeValidator</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
