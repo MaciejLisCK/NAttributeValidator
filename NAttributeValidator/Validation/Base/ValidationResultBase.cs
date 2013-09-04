@@ -33,7 +33,7 @@ namespace NAttributeValidator.Validation.Base
         {
             get
             {
-                return NotValidMessages.Any();
+                return !NotValidMessages.Any();
             }
         }
 
