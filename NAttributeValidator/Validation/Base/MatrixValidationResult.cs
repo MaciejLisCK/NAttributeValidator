@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace BusinessLogic.Validation.Base
+﻿namespace NAttributeValidator.Validation.Base
 {
     public class MatrixValidationResult : ValidationResultBase<MatrixValidationMessage>
     {

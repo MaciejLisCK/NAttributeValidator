@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace BusinessLogic.Helpers
+namespace NAttributeValidator.Helpers
 {
     public class StringToMatrixParser : IStringToMatrixParser
     {

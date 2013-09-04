@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using BusinessLogic.Helpers;
-using BusinessLogic.Validation.Base;
+﻿using System.Collections.Generic;
+using NAttributeValidator.Helpers;
+using NAttributeValidator.Validation.Base;
 
-namespace BusinessLogic.Validation
+namespace NAttributeValidator.Validation
 {
     public class ExcelPasteOutputValidator
     {

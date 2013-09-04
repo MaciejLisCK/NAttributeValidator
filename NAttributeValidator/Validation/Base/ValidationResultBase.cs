@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace BusinessLogic.Validation.Base
+namespace NAttributeValidator.Validation.Base
 {
     public abstract class ValidationResultBase<T> where T: ValidationMessage
     {

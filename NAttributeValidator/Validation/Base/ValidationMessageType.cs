@@ -1,4 +1,4 @@
-﻿namespace BusinessLogic.Validation.Base
+﻿namespace NAttributeValidator.Validation.Base
 {
     public enum ValidationMessageType
     {
