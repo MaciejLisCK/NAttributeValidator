@@ -53,6 +53,7 @@
     <Compile Include="Helpers\StringToMatrixParserShould.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ExcelPasteOutputValidatorShould.cs" />
+    <Compile Include="SimpleTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\NAttributeValidator\NAttributeValidator.csproj">

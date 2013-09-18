@@ -39,6 +39,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Attributes\IValidationAttribute.cs" />
+    <Compile Include="Attributes\Required.cs" />
+    <Compile Include="AttributeValidator.cs" />
     <Compile Include="Helpers\IStringToMatrixParser.cs" />
     <Compile Include="Helpers\StringToMatrixParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
